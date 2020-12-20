@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gold Rush Game</title>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="buttom">
+        <div class="player1scores"></div>
+        <button id="refreshGame" onClick="window.location.reload();">Refresh Game</button>
+        <div class="player2scores"></div>
+   </div>
+    <script id="main-template" type="text/x-handlebars-template">
+        {{#each this}}
+        {{#each this}}
+        <div class="{{this}}">
+            <div class="inside"></div>
+        </div>
+        {{/each}}
+        {{/each}}
+        </script>
+
+        <script id="player1scores-template" type="text/x-handlebars-template">
+            <div class="scores"><b>Player 1 Scores:</b> {{this}}</div>
+        </script>
+        <script id="player2scores-template" type="text/x-handlebars-template">
+            <div class="scores"><b>Player 2 Scores:</b> {{this}}</div>
+        </script>
+
+<script src = "https://code.jquery.com/jquery-3.3.1.js" crossorigin = "anonymous" > </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"> </script>
+<script src="GoldRush.JS"></script>
+<script src="Renderer.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
