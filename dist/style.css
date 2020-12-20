@@ -1,0 +1,111 @@
+body{
+    background-image: url('https://lh3.googleusercontent.com/proxy/2fPKluGkgPqZILGTpXhBtBXV7FszDOwL50srMQrcdcybHHLfj8YwmIzr8HTcIEM4v0h-NKHg8pL9DmPR_ImonkUXz3SKwkU0ynOaqZcrz3AVacFbjd3k1X6Ujb0');
+    background-size: cover;
+}
+.container{
+    display: inline-block;
+    width: 905px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.block{
+    float: left;
+    width: 90px;
+    height: 50px; 
+    color: black;
+    border:black solid 0.5px;
+}
+.wall{
+    float: left;
+    background-color: brown;
+    width: 90px;
+    height: 50px; 
+    color: black;
+    border:black solid 0.5px; 
+}
+.coin{
+    float: left;
+    width: 90px;
+    height: 50px;
+    color: black;
+    border:black solid 0.5px;
+}
+.coin .inside{
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+background-color: gold;
+width: 15px;
+height: 15px;
+}
+.player1{
+    float: left;
+    width: 90px;
+    height: 50px;
+    color: black;
+    border:black solid 0.5px;
+}
+.player1 .inside{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    }
+.player2{
+    float: left;
+    width: 90px;
+    height: 50px;
+    color: black;
+    border:black solid 0.5px;
+}
+.player2 .inside{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: wheat;
+    width: 30px;
+    height: 30px;
+}
+
+.buttom{
+display: inline-block;
+}
+.player1scores{
+    text-align: center;
+    float: left;
+    border:solid black 0.5px;
+    margin-left: 10px ;
+    width: 200px;
+    height: 40px;
+    color: black;
+    background-color: wheat;
+}
+
+.scores{
+color: black;
+}
+#refreshGame{
+    float: left;
+    border:solid black 0.5px;
+    margin-left: 350px;
+    width: 200px;
+    height: 40px;
+    color: black;
+}
+
+.player2scores{
+    text-align: center;
+    float: left;
+    border:solid black 0.5px;
+    margin-left: 350px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    background-color: wheat;
+}
