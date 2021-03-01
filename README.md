@@ -11,8 +11,16 @@ I also used NodeJS to upload the game to the server.
 Tools and technologies 🤓
 
 🛠 Html
+
 🛠 CSS
+
 🛠 JavaScript
+
 🛠 NodeJS
+
 🛠 Express Library
+
+                                             Game Screen
+
+![image](https://user-images.githubusercontent.com/42724186/109479876-8a07bf00-7a83-11eb-8258-4d5de52b9bd4.png)
 
