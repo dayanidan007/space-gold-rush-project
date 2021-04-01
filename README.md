@@ -10,9 +10,9 @@ I also used NodeJS to upload the game to the server.
 
 Tools and technologies 🤓
 
-🛠 Html
-
 🛠 CSS
+
+🛠 Html
 
 🛠 JavaScript
 
